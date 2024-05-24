@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Modules\Admin\Http\Controllers\AdminController;
+use Modules\Admin\Http\Controllers\ListProductsController;
+use Modules\Admin\Http\Controllers\InsertProductsController;
 
 /*
  *--------------------------------------------------------------------------
@@ -15,5 +16,7 @@ use Modules\Admin\Http\Controllers\AdminController;
 */
 
 Route::prefix('v1')->group(function () {
-    Route::get('/products', [AdminController::class, 'list']);
+    Route::get('/products', ListProductsController::class);
+
+    Route::put('/products', InsertProductsController::class);
 });

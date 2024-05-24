@@ -7,10 +7,10 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class AdminController extends Controller
+class ListProductsController extends Controller
 {
 
-    public function list()
+    public function __invoke()
     {
         return [
             'a' => 1,

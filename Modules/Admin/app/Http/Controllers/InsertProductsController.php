@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 
 class InsertProductsController extends Controller
 {
-    public function __invoke()
+    public function __invoke(string $id)
     {
         return [
             "message" => 'item inserted successfully'

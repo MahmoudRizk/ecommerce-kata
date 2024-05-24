@@ -18,5 +18,5 @@ use Modules\Admin\Http\Controllers\InsertProductsController;
 Route::prefix('v1')->group(function () {
     Route::get('/products', ListProductsController::class);
 
-    Route::put('/products', InsertProductsController::class);
+    Route::put('/products/{id}', InsertProductsController::class);
 });

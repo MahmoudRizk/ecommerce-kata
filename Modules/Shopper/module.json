@@ -1,0 +1,11 @@
+{
+    "name": "Shopper",
+    "alias": "shopper",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Shopper\\Providers\\ShopperServiceProvider"
+    ],
+    "files": []
+}

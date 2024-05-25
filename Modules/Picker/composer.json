@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/picker",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Picker\\": "app/",
+            "Modules\\Picker\\Database\\Factories\\": "database/factories/",
+            "Modules\\Picker\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Picker\\Tests\\": "tests/"
+        }
+    }
+}

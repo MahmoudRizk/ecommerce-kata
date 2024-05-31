@@ -1,5 +1,6 @@
 {
     "Admin": true,
     "Shopper": true,
-    "Picker": true
+    "Picker": true,
+    "Delivery": true
 }
